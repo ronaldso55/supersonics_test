@@ -1,0 +1,159 @@
+[
+  {
+    "type": "1",
+    "screenId": "1",
+    "title": "OVERVIEW",
+    "length": "7",
+    "sections": [
+      {
+        "title": "CONCEPT",
+        "option": "About Anxiety"
+      },
+      {
+        "title": "SKILL",
+        "option": "Anxiety-Behavior Tracking"
+      },
+      {
+        "title": "BREATHING EXERCISE",
+        "option": "Diaphragmatic Breathing"
+      },
+      {
+        "title": "MONITOR",
+        "option": "Anxiety Tracking"
+      }
+    ]
+  },
+  {
+    "type": "2",
+    "screenId": "2",
+    "title": "ABOUT ANXIETY",
+    "topHeader": "CONCEPT",
+    "header": "Watch this video to learn what is anxiety and why it exists.",
+    "videoURL": "https://d2swjyil7hxep8.cloudfront.net/what_is_anxiety.mp4",
+    "snapshotURL": "../../images/what_is_anxiety.png"
+  },
+  {
+    "type": "2",
+    "screenId": "3",
+    "title": "Anxiety-Behavior Tracking",
+    "topHeader": "SKILL",
+    "header": " Watch this video to learn about anxiety related behaviors.",
+    "videoURL": "https://d2swjyil7hxep8.cloudfront.net/anxiety_related_behaviours.mp4",
+    "snapshotURL": "../../images/anxiety_related_behaviours.png"
+  },
+  {
+    "type": "3",
+    "screenId": "4",
+    "title": "Safety Behaviors",
+    "topHeader": "SKILL",
+    "header": "Choose behaviors that you DO when anxious",
+    "freeForm": "false",
+    "options": [
+      {
+        "title": "Drink too much",
+        "optionId": "safety-behaviour-1",
+        "selected": "false",
+        "count": 0
+      },
+      {
+        "title": "Repeat words or phrases, or use fillers such as 'like' or 'you know'",
+        "optionId": "safety-behaviour-2",
+        "selected": "false",
+        "count": 0
+      },
+      {
+        "title": "Let my date do all the talking because or over rehearse",
+        "optionId": "safety-behaviour-3",
+        "selected": "false",
+        "count": 0
+      },
+      {
+        "title": "Try to keep my hands out of sight so that no one sees them trembling",
+        "optionId": "safety-behaviour-4",
+        "selected": "false",
+        "count": 0
+      }
+    ]
+  },
+  {
+    "type": "3",
+    "screenId": "5",
+    "title": "Avoided Behaviors",
+    "topHeader": "SKILL",
+    "header": "Choose behaviors that you AVOID when anxious",
+    "freeForm": "false",
+    "options": [
+      {
+        "title": "Avoid situations that might lead to meeting someone new",
+        "optionId": "avoided-behaviour-1",
+        "selected": "false",
+        "count": 0
+      },
+      {
+        "title": "Avoid introducing myself properly",
+        "optionId": "avoided-behaviour-2",
+        "selected": "false",
+        "count": 0
+      },
+      {
+        "title": "Avoid making eye contact ",
+        "optionId": "avoided-behaviour-3",
+        "selected": "false",
+        "count": 0
+      },
+      {
+        "title": "Avoid eating in front of date ",
+        "optionId": "avoided-behaviour-4",
+        "selected": "false",
+        "count": 0
+      }
+    ]
+  },
+  {
+    "type": "4",
+    "screenId": "6",
+    "title": "DIAPHRAGMATIC BREATHING",
+    "topHeader": "BREATHING EXERCISE",
+    "header": "Relaxation helps! Let's learn a calming relaxation technique",
+    "audioDescription": "Easy to use relaxation technique",
+    "audioURL": "https://d2swjyil7hxep8.cloudfront.net/dia_breathing.mp3",
+    "audioId": "dia_breathing",
+    "length": "5"
+  },
+  {
+    "type": "5",
+    "screenId": "7",
+    "chartLabels": [],
+    "chartData": [],
+    "topHeader": "ANXIETY TRACKER",
+    "header": "Imagine you have to ask someone on a date. How anxious would that make you feel?",
+    "minText": "NOT AT ALL",
+    "midText": "SOMEWHAT",
+    "maxText": "EXTREMELY",
+    "sliderMin": 0,
+    "sliderMax": 10,
+    "sliderStep": 1
+  },
+  {
+    "type": "6",
+    "screenId": "8",
+    "title": "CONGRATULATIONS!",
+    "subHeader": "Session Complete",
+    "completedSessionNumber": 1,
+    "completedSession": "INTRO TO ANXIETY",
+    "sections": [
+      {
+        "title": "Learned Concept",
+        "option": "About Anxiety"
+      },
+      {
+        "title": "Mastered Skill",
+        "option": "Behavior Tracking"
+      },
+      {
+        "title": "Practiced",
+        "option": "Diaphragmatic Breathing"
+      }
+    ]
+  }
+]

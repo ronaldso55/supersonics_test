@@ -1,0 +1,20 @@
+[
+  {
+      "type": "1",
+      "title": "Avoided Behaviors",
+      "subHeader": "Track the behaviors you do",
+      "behaviors": [
+          {"behaviorId": 1, "title": "Making eye contact", "count": 9},
+          {"behaviorId": 2, "title": "Introducing yourself to people", "count": 6},
+          {"behaviorId": 3, "title": "Disagreeing with people", "count": 3}]
+  },
+  {
+      "type": "2",
+      "title": "Safety Behaviors",
+      "subHeader": "Track the behaviors you do",
+      "behaviors": [
+          {"behaviorId": 4, "title": "Grip an object (pen, bottle)", "count": 5},
+          {"behaviorId": 5, "title": "Start repeating phrases (“you know”)", "count": 7},
+          {"behaviorId": 6, "title": "Have a drink", "count": 2}]
+  }
+]
