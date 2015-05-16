@@ -29,22 +29,24 @@
     "title": "ABOUT ANXIETY",
     "topHeader": "CONCEPT",
     "header": "Watch this video to learn what is anxiety and why it exists.",
-    "videoURL": "https://d2swjyil7hxep8.cloudfront.net/what_is_anxiety.mp4",
-    "snapshotURL": "../../images/what_is_anxiety.png"
+    "videoURL": "https://d2swjyil7hxep8.cloudfront.net/gWwF!gt!6!kiU0RR!VRq_v2/Session1_AboutAnxiety_vid1.mp4",
+    "snapshotURL": "../../images/what_is_anxiety.png",
+    "videoId": "video_about_anxiety"
   },
   {
     "type": "2",
     "screenId": "3",
-    "title": "Anxiety-Behavior Tracking",
+    "title": "ANXIETY-BEHAVIOR TRACKING",
     "topHeader": "SKILL",
     "header": " Watch this video to learn about anxiety related behaviors.",
-    "videoURL": "https://d2swjyil7hxep8.cloudfront.net/anxiety_related_behaviours.mp4",
-    "snapshotURL": "../../images/anxiety_related_behaviours.png"
+    "videoURL": "https://d2swjyil7hxep8.cloudfront.net/gWwF!gt!6!kiU0RR!VRq_v2/Session1_AnxietyBeh_vid2.mp4",
+    "snapshotURL": "../../images/anxiety_related_behaviours.png",
+    "videoId": "video_anxiety_behavior_tracking"
   },
   {
     "type": "3",
     "screenId": "4",
-    "title": "Safety Behaviors",
+    "title": "SAFETY BEHAVIORS",
     "topHeader": "SKILL",
     "header": "Choose behaviors that you DO when anxious",
     "freeForm": "false",
@@ -78,7 +80,7 @@
   {
     "type": "3",
     "screenId": "5",
-    "title": "Avoided Behaviors",
+    "title": "AVOIDED BEHAVIORS",
     "topHeader": "SKILL",
     "header": "Choose behaviors that you AVOID when anxious",
     "freeForm": "false",
@@ -116,7 +118,7 @@
     "topHeader": "BREATHING EXERCISE",
     "header": "Relaxation helps! Let's learn a calming relaxation technique",
     "audioDescription": "Easy to use relaxation technique",
-    "audioURL": "https://d2swjyil7hxep8.cloudfront.net/dia_breathing.mp3",
+    "audioURL": "https://d2swjyil7hxep8.cloudfront.net/gWwF!gt!6!kiU0RR!VRq_v2/Session1_DiaBreathing+audio.mp3",
     "audioId": "dia_breathing",
     "length": "5"
   },
