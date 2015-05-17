@@ -14,17 +14,17 @@ module.exports =
     {
       title: "Sessions"
       id: "sessions"
-      location: "main#sessions"
+      location: "http://localhost/app/main/sessions/sessions.html"
     }
     {
       title: "Tools"
       id: "tools"
-      location: "main#tools"
+      location: "http://localhost/app/main/tools/tools.html"
     }
     {
       title: "Profile"
       id: "profile"
-      location: "main#profile"
+      location: "http://localhost/app/main/profile/profile.html"
     }
   ]
 
