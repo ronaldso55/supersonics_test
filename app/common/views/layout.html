@@ -17,6 +17,10 @@
 <script src="/components/supersonic/supersonic.js"></script>
 <script src="/components/webcomponentsjs/webcomponents.js"></script>
 
+<!-- Start of AngularJS plugins -->
+<script src="/components/angular-sanitize/angular-sanitize.min.js"></script>
+<!-- End of AngularJS plugins -->
+
 <% _.each(yield.modules, function(module) { %>
 <script src="/app/<%= module %>.js"></script>
 <% }); %>
