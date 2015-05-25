@@ -1,0 +1,137 @@
+{
+    "automaticThoughtRecorder" :
+    {
+        "type": "8",
+        "title": "Record Automatic Thought",
+        "topHeader": "THOUGHT RECORDER",
+        "header": "Practice this skill by recording your most common automatic thought :",
+        "freeForm": "false",
+        "options": [
+                {
+                    "title": "She/He can tell I’m nervous",
+                    "optionId": "automatic-thought-1",
+                    "selected": "false"
+                },
+                {
+                    "title": "I am going to make a fool of myself",
+                    "optionId": "automatic-thought-2",
+                    "selected": "false"
+                },
+                {
+                    "title": "She/he must think I’m boring",
+                    "optionId": "automatic-thought-3",
+                    "selected": "false"
+                },
+                {
+                    "title": "I will never find a partner!",
+                    "optionId": "automatic-thought-4",
+                    "selected": "false"
+                }
+        ]
+    },
+    "recordEmotion" :
+    {
+        "type": "9",
+        "title": "IDENTIFY EMOTIONS",
+        "topHeader": "SKILL",
+        "header": "Pick the emotions you feel related to automatic thoughts you entered",
+        "options":[
+            {
+                "optionId":"record-emotion-1",
+                "title":"Anxiety",
+                "selected": "false"
+            },
+            {
+                "optionId":"record-emotion-2",
+                "title":"Sadness",
+                "selected": "false"
+            },
+            {
+                "optionId":"record-emotion-3",
+                "title":"Anger at self",
+                "selected": "false"
+            },
+            {
+                "optionId":"record-emotion-4",
+                "title":"Anger at others",
+                "selected": "false"
+            }
+        ]
+    },
+    "categoryRecorder" :
+    {
+        "type": "10",
+        "title": "Categorize ATs",
+        "topHeader": "THOUGHT RECORDER",
+        "header": "Add a category to the Automatic Thought you recorded earlier:",
+        "options":[
+            {
+                "optionId":"record-emotion-1",
+                "title":"Anxiety",
+                "selected": "false"
+            }
+            ],
+        "categories":[
+            {
+                "title": "Mind reading",
+                "value": "Mind reading",
+                "id"   : "1",
+                "info" : "You assume that you know what people think without having sufficient evidence of their thoughts."
+            },
+            {
+                "title": "Fortunetelling",
+                "value": "Fortunetelling",
+                "id"   : "2",
+                "info" : "You predict the future negatively: Things will get worse, or there is danger ahead."
+            },
+            {
+                "title": "Catastrophizing",
+                "value": "Catastrophizing",
+                "id"   : "3",
+                "info" : "You believe that what has happened or will happen will be so awful and unbearable that you won’t be able to stand it. "
+            },
+            {
+                "title": "Labeling",
+                "value": "Labeling",
+                "id"   : "4",
+                "info" : "You assign global negative traits to yourself and others."
+            },
+            {
+                "title": "Discounting positives",
+                "value": "Discounting positives",
+                "id"   : "5",
+                "info" : "You claim that the positive things you or others do are trivial."
+            },
+            {
+                "title": "Negative filtering",
+                "value": "Negative filtering",
+                "id"   : "6",
+                "info" : "You focus almost exclusively on the negatives and seldom notice the positives."
+            },
+            {
+                "title": "Overgeneralizing",
+                "value": "Overgeneralizing",
+                "id"   : "7",
+                "info" : "You perceive a global pattern of negatives on the basis of a single incident."
+            },
+            {
+                "title": "All-or-Nothing",
+                "value": "All-or-Nothing",
+                "id"   : "8",
+                "info" : "You view events or people in all-or-nothing terms."
+            },
+            {
+                "title": "Shoulds",
+                "value": "Shoulds",
+                "id"   : "9",
+                "info" : "You interpret events in terms of how things should be, rather than simply focusing on what is."
+            },
+            {
+                "title": "Personalizing",
+                "value": "Personalizing",
+                "id"   : "10",
+                "info" : "You attribute a disproportionate amount of the blame to yourself for negative events, and you fail to see that certain events are also caused by others."
+            }
+        ]
+    }
+}

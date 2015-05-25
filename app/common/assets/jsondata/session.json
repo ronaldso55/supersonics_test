@@ -1,161 +1,844 @@
-[
-  {
-    "type": "1",
-    "screenId": "1",
-    "title": "OVERVIEW",
-    "length": "7",
-    "sections": [
-      {
-        "title": "CONCEPT",
-        "option": "About Anxiety"
-      },
-      {
-        "title": "SKILL",
-        "option": "Anxiety-Behavior Tracking"
-      },
-      {
-        "title": "BREATHING EXERCISE",
-        "option": "Diaphragmatic Breathing"
-      },
-      {
-        "title": "MONITOR",
-        "option": "Anxiety Tracking"
-      }
+{
+  "s1" :
+    [
+        {
+            "type": "1",
+            "screenId": "1",
+            "title": "OVERVIEW",
+            "length": "7",
+            "sections": [
+            {
+              "title": "CONCEPT",
+              "option": "About Anxiety"
+            },
+            {
+              "title": "SKILL",
+              "option": "Anxiety-Behavior Tracking"
+            },
+            {
+              "title": "BREATHING EXERCISE",
+              "option": "Diaphragmatic Breathing"
+            },
+            {
+              "title": "MONITOR",
+              "option": "Anxiety Tracking"
+            }
+          ]
+        },
+        {
+            "type": "2",
+            "screenId": "2",
+            "topHeader": "CONCEPT",
+            "title": "ABOUT ANXIETY",
+            "header": "Watch this video to learn what is anxiety and why it exists",
+            "videoURL": "https://d2swjyil7hxep8.cloudfront.net/v3/Session1_AboutAnxiety_vid1.mp4",
+            "snapshotURL": "../../images/what_is_anxiety.png",
+            "videoId": "video_about_anxiety"
+        },
+        {
+            "type": "2",
+            "screenId": "3",
+            "topHeader": "CONCEPT",
+            "title": "ANXIETY-BEHAVIOR TRACKING",
+            "header": " Watch this video to learn about anxiety related behaviors",
+            "videoURL": "https://d2swjyil7hxep8.cloudfront.net/v3/Session1_AnxietyBeh_vid2.mp4",
+            "snapshotURL": "../../images/anxiety_related_behaviours.png",
+            "videoId": "video_anxiety_behavior_tracking"
+        },
+        {
+            "type": "3",
+            "screenId": "4",
+            "topHeader": "SKILL",
+            "title": "SAFETY BEHAVIORS",
+            "header": "Choose behaviors that you DO when anxious",
+            "freeForm": "false",
+            "options": [
+                {
+                  "title": "Drink too much",
+                  "optionId": "safety-behaviour-1",
+                  "selected": "false",
+                  "count": 0
+                },
+                {
+                  "title": "Repeat words or phrases, or use fillers such as 'like' or 'you know'",
+                  "optionId": "safety-behaviour-2",
+                  "selected": "false",
+                  "count": 0
+                },
+                {
+                  "title": "Let my date do all the talking because or over rehearse",
+                  "optionId": "safety-behaviour-3",
+                  "selected": "false",
+                  "count": 0
+                },
+                {
+                  "title": "Try to keep my hands out of sight so that no one sees them trembling",
+                  "optionId": "safety-behaviour-4",
+                  "selected": "false",
+                  "count": 0
+                }
+            ]
+        },
+        {
+            "type": "3",
+            "screenId": "5",
+            "topHeader": "SKILL",
+            "title": "AVOIDED BEHAVIORS",
+            "header": "Choose behaviors that you AVOID when anxious",
+            "freeForm": "false",
+            "options": [
+                {
+                  "title": "Avoid situations that might lead to meeting someone new",
+                  "optionId": "avoided-behaviour-1",
+                  "selected": "false",
+                  "count": 0
+                },
+                {
+                  "title": "Avoid introducing myself properly",
+                  "optionId": "avoided-behaviour-2",
+                  "selected": "false",
+                  "count": 0
+                },
+                {
+                  "title": "Avoid making eye contact ",
+                  "optionId": "avoided-behaviour-3",
+                  "selected": "false",
+                  "count": 0
+                },
+                {
+                  "title": "Avoid eating in front of date ",
+                  "optionId": "avoided-behaviour-4",
+                  "selected": "false",
+                  "count": 0
+                }
+            ]
+        },
+        {
+            "type": "4",
+            "screenId": "6",
+            "topHeader": "BREATHING EXERCISE",
+            "title": "DIAPHRAGMATIC BREATHING",
+            "header": "Relaxation helps! Let's learn a calming relaxation technique",
+            "audioDescription": "Easy to use relaxation technique",
+            "audioURL": "https://d2swjyil7hxep8.cloudfront.net/v3/Session1_DiaBrathing_vid3.mp4",
+            "audioId": "dia_breathing",
+            "length": "5"
+        },
+        {
+            "type": "5",
+            "screenId": "7",
+            "topHeader": "MONITOR",
+            "header": "Imagine you have to ask someone on a date. How anxious would that make you feel?",
+            "chartLabels": [],
+            "chartData": [],
+            "minText": "NOT AT ALL",
+            "midText": "SOMEWHAT",
+            "maxText": "EXTREMELY",
+            "sliderMin": 0,
+            "sliderMax": 10,
+            "sliderStep": 1
+        },
+        {
+            "type": "6",
+            "screenId": "8",
+            "title": "CONGRATULATIONS!",
+            "subHeader": "Session Complete",
+            "completedSessionNumber": 1,
+            "completedSession": "INTRO TO ANXIETY",
+            "sections": [
+                {
+                  "title": "Learned Concept",
+                  "option": "About Anxiety"
+                },
+                {
+                  "title": "Mastered Skill",
+                  "option": "Behavior Tracking"
+                },
+                {
+                  "title": "Practiced",
+                  "option": "Diaphragmatic Breathing"
+                }
+            ]
+        }
+    ],
+
+    "s2":
+    [
+        {
+            "type": "1",
+            "screenId": "1",
+            "title": "OVERVIEW",
+            "length": "5",
+            "sections": [
+                {
+                    "title": "CONCEPT",
+                    "option": "About CBT"
+                },
+                {
+                    "title": "SKILL",
+                    "option": "Body Sensation Monitoring"
+                },
+                {
+                    "title": "BREATHING EXERCISE",
+                    "option": "Diaphragmatic Breathing"
+                },
+                {
+                    "title": "MONITOR",
+                    "option": "Anxiety Tracking"
+                }
+            ]
+        },
+        {
+            "type": "2",
+            "screenId": "2",
+            "topHeader": "CONCEPT",
+            "title": "WHAT IS CBT",
+            "header": "Watch this video to learn about the science behind wayForward",
+            "videoURL": "https://d2swjyil7hxep8.cloudfront.net/v3/Session2_AboutCBT_vid4.mp4",
+            "snapshotURL": "../../images/what_is_anxiety.png",
+            "videoId": "video_what_is_cbt"
+        },
+        {
+            "type": "2",
+            "screenId": "3",
+            "topHeader": "SKILL",
+            "title": "BODY SENSATION MONITORING",
+            "header": "Watch this video to learn about bodily sensations related to anxiety",
+            "videoURL": "https://d2swjyil7hxep8.cloudfront.net/v3/Session2_BodySens_vid5_NEED TO UPDATE.mp4",
+            "snapshotURL": "../../images/anxiety_related_behaviours.png",
+            "videoId": "video_body_sensation_monitoring"
+        },
+        {
+            "type": "3",
+            "screenId": "4",
+            "topHeader": "SKILL",
+            "title": "BODY SENSATION MONITORING",
+            "header": "",
+            "freeForm": "false",
+            "options": [
+                {
+                    "title": "Blushing",
+                    "optionId": "body-sensation-monitoring-1",
+                    "selected": "false",
+                    "count": 0
+                },
+                {
+                    "title": "Sweating",
+                    "optionId": "body-sensation-monitoring-2",
+                    "selected": "false",
+                    "count": 0
+                },
+                {
+                    "title": "Trembling (hands)",
+                    "optionId": "body-sensation-monitoring-3",
+                    "selected": "false",
+                    "count": 0
+                },
+                {
+                    "title": "Racing heart",
+                    "optionId": "body-sensation-monitoring-4",
+                    "selected": "false",
+                    "count": 0
+                },
+                {
+                    "title": "Tightness in chest",
+                    "optionId": "body-sensation-monitoring-5",
+                    "selected": "false",
+                    "count": 0
+                },
+                {
+                    "title": "Shortness of breath",
+                    "optionId": "body-sensation-monitoring-6",
+                    "selected": "false",
+                    "count": 0
+                },
+                {
+                    "title": "Nausea",
+                    "optionId": "body-sensation-monitoring-7",
+                    "selected": "false",
+                    "count": 0
+                },
+                {
+                    "title": "Butterflies in the stomach",
+                    "optionId": "body-sensation-monitoring-8",
+                    "selected": "false",
+                    "count": 0
+                },
+                {
+                    "title": "Dizziness",
+                    "optionId": "body-sensation-monitoring-9",
+                    "selected": "false",
+                    "count": 0
+                },
+                {
+                    "title": "Chills",
+                    "optionId": "body-sensation-monitoring-10",
+                    "selected": "false",
+                    "count": 0
+                }
+            ]
+        },
+        {
+            "type": "4",
+            "screenId": "5",
+            "topHeader": "BREATHING EXERCISE",
+            "title": "DIAPHRAGMATIC BREATHING",
+            "header": "Let’s practice the breathing exercise we learned in the last session",
+            "audioDescription": "Calming Relaxation Technique",
+            "audioURL": "https://d2swjyil7hxep8.cloudfront.net/v3/Session2_DiaBreathing audio.mp3",
+            "audioId": "calming_relaxation_technique",
+            "length": "5"
+        },
+        {
+            "type": "5",
+            "screenId": "6",
+            "topHeader": "MONITOR",
+            "header": "Imagine you have to ask someone on a date. How anxious would that make you feel?",
+            "chartLabels": [],
+            "chartData": [],
+            "minText": "NOT AT ALL",
+            "midText": "SOMEWHAT",
+            "maxText": "EXTREMELY",
+            "sliderMin": 0,
+            "sliderMax": 10,
+            "sliderStep": 1
+        },
+        {
+            "type": "6",
+            "screenId": "7",
+            "title": "CONGRATULATIONS!",
+            "subHeader": "Session Complete",
+            "completedSessionNumber": 2,
+            "completedSession": "ABOUT CBT",
+            "sections": [
+                {
+                    "title": "Remember Concept",
+                    "option": "About CBT, and how review helps"
+                },
+                {
+                    "title": "Mastered Skill",
+                    "option": "Body Sensation Monitoring"
+                },
+                {
+                    "title": "Practice",
+                    "option": "Diaphragmatic Breathing"
+                }
+            ]
+        }
+    ],
+    "s3":
+    [
+        {
+            "type": "1",
+            "screenId": "1",
+            "title": "OVERVIEW",
+            "length": "5",
+            "sections": [
+                {
+                    "title": "CONCEPT",
+                    "option": "About Worry"
+                },
+                {
+                    "title": "SKILL",
+                    "option": "Worry Tool"
+                },
+                {
+                    "title": "BREATHING EXERCISE",
+                    "option": "PMR 1: Head and Neck"
+                },
+                {
+                    "title": "MONITOR",
+                    "option": "Anxiety Tracking"
+                }
+            ]
+        },
+        {
+            "type": "2",
+            "screenId": "2",
+            "topHeader": "CONCEPT",
+            "title": "WHAT IS WORRY",
+            "header": "Watch this video to learn what worry is",
+            "videoURL": "https://d2swjyil7hxep8.cloudfront.net/v3/Session3_Worry_vid6.mp4",
+            "snapshotURL": "../../images/what_is_anxiety.png",
+            "videoId": "video_what_is_worry"
+        },
+        {
+            "type": "2",
+            "screenId": "3",
+            "topHeader": "SKILL",
+            "title": "WORRY TOOL",
+            "header": "Watch this video to learn a worry management skill",
+            "videoURL": "https://d2swjyil7hxep8.cloudfront.net/v3/Session3_Worry_vid6.mp4",
+            "snapshotURL": "../../images/what_is_anxiety.png",
+            "videoId": "video_worry_tool"
+        },
+        {
+            "type": "7",
+            "screenId": "4",
+            "topHeader": "SKILL",
+            "title": "WORRY TOOL",
+            "header": "Write down your worries here and try to come up with one solution if possible. If not that’s alright too."
+        },
+        {
+            "type": "4",
+            "screenId": "5",
+            "topHeader": "BREATHING EXERCISE",
+            "title": "PMR HEAD AND NECK",
+            "header": "Let’s practice a new breathing exercise to relax your head and neck",
+            "audioDescription": "Muscle Relaxation",
+            "audioURL": "https://d2swjyil7hxep8.cloudfront.net/v3/Session3_PMR1_audio.mp3",
+            "audioId": "muscle_relaxation",
+            "length": "5"
+        },
+        {
+            "type": "5",
+            "screenId": "6",
+            "topHeader": "MONITOR",
+            "header": "Imagine you have to ask someone on a date. How anxious would that make you feel?",
+            "chartLabels": [],
+            "chartData": [],
+            "minText": "NOT AT ALL",
+            "midText": "SOMEWHAT",
+            "maxText": "EXTREMELY",
+            "sliderMin": 0,
+            "sliderMax": 10,
+            "sliderStep": 1
+        },
+        {
+            "type": "6",
+            "screenId": "7",
+            "title": "CONGRATULATIONS!",
+            "subHeader": "Session Complete",
+            "completedSessionNumber": 3,
+            "completedSession": "ABOUT WORRY",
+            "sections": [
+                {
+                    "title": "Remember Concept",
+                    "option": "About worry"
+                },
+                {
+                    "title": "Master Skill",
+                    "option": "Worry Tool"
+                },
+                {
+                    "title": "Practice Breathing",
+                    "option": "PMR Head and Neck"
+                }
+            ]
+        }
+    ],
+    "s4":
+    [
+        {
+            "type": "1",
+            "screenId": "1",
+            "title": "OVERVIEW",
+            "length": "5",
+            "sections": [
+                {
+                    "title": "CONCEPT",
+                    "option": "Some anxiety is OK"
+                },
+                {
+                    "title": "SKILL",
+                    "option": "Automatic Thoughts"
+                },
+                {
+                    "title": "BREATHING EXERCISE",
+                    "option": "PMR 1: Head and Neck"
+                },
+                {
+                    "title": "MONITOR",
+                    "option": "Anxiety Tracking"
+                }
+            ]
+        },
+        {
+            "type": "2",
+            "screenId": "2",
+            "topHeader": "CONCEPT",
+            "title": "SOME ANXIETY IS OK",
+            "header": "Watch this video to learn about optimal anxiety",
+            "videoURL": "https://d2swjyil7hxep8.cloudfront.net/v3/Session4_SomeAnx_vid8.mp4",
+            "snapshotURL": "../../images/what_is_anxiety.png",
+            "videoId": "automatic-thoughts-video-1"
+        },
+        {
+            "type": "2",
+            "screenId": "3",
+            "topHeader": "SKILL",
+            "title": "AUTOMATIC THOUGHTS",
+            "header": "Watch this video about anxiety related thoughts",
+            "videoURL": "https://d2swjyil7hxep8.cloudfront.net/v3/Session4_AT_vid9_NEED TO UPDATE.mp4",
+            "snapshotURL": "../../images/anxiety_related_behaviours.png",
+            "videoId": "automatic-thoughts-video-2"
+        },
+        {
+            "type": "8",
+            "screenId": "4",
+            "topHeader": "SKILL",
+            "title": "RECORD AUTOMATIC THOUGHT",
+            "header": "Practice this skill by recording your most common automatic thought in the Thought Recorder:",
+            "freeForm": "false",
+            "options": [
+                {
+                    "title": "She/He can tell I’m nervous",
+                    "optionId": "automatic-thought-1",
+                    "selected": "false"
+                },
+                {
+                    "title": "I am going to make a fool of myself",
+                    "optionId": "automatic-thought-2",
+                    "selected": "false"
+                },
+                {
+                    "title": "She/he must think I’m boring",
+                    "optionId": "automatic-thought-3",
+                    "selected": "false"
+                },
+                {
+                    "title": "I will never find a partner!",
+                    "optionId": "automatic-thought-4",
+                    "selected": "false"
+                }
+            ]
+        },
+        {
+            "type": "4",
+            "screenId": "5",
+            "topHeader": "BREATHING EXERCISE",
+            "title": "PMR HEAD AND NECK",
+            "header": "Let’s practice the muscle relaxation you learned in the last session",
+            "audioDescription": "Muscle Relaxation",
+            "audioURL": "https://d2swjyil7hxep8.cloudfront.net/v3/Session4_PMR1_audio.mp3",
+            "audioId": "muscle_relaxation",
+            "length": "5"
+        },
+        {
+            "type": "5",
+            "screenId": "6",
+            "topHeader": "MONITOR",
+            "header": "Imagine you have to ask someone on a date. How anxious would that make you feel?",
+            "chartLabels": [],
+            "chartData": [],
+            "minText": "NOT AT ALL",
+            "midText": "SOMEWHAT",
+            "maxText": "EXTREMELY",
+            "sliderMin": 0,
+            "sliderMax": 10,
+            "sliderStep": 1
+        },
+        {
+            "type": "6",
+            "screenId": "7",
+            "title": "CONGRATULATIONS!",
+            "subHeader": "Session Complete",
+            "completedSessionNumber": 4,
+            "completedSession": "NEGATIVE THOUGHTS",
+            "sections": [
+                {
+                    "title": "Remember Concept",
+                    "option": "Some anxiety is OK"
+                },
+                {
+                    "title": "Master Skill",
+                    "option": "Automatic Thoughts"
+                },
+                {
+                    "title": "Practice Breathing",
+                    "option": "PMR Head and Neck"
+                }
+            ]
+        }
+    ],
+    "s5":
+    [
+        {
+          "type": "1",
+          "screenId": "1",
+          "title": "OVERVIEW",
+          "length": "5",
+          "sections": [
+                {
+                    "title": "CONCEPT",
+                    "option": "Emotions and Thoughts"
+                },
+                {
+                    "title": "SKILL",
+                    "option": "Identify Emotions"
+                },
+                {
+                    "title": "BREATHING EXERCISE",
+                    "option": "PMR 2: Upper Body"
+                },
+                {
+                    "title": "MONITOR",
+                    "option": "Anxiety Tracking"
+                }
+            ]
+        },
+        {
+            "type": "2",
+            "screenId": "2",
+            "topHeader": "CONCEPT",
+            "title": "EMOTIONS ACCOMPANYING AUTOMATIC THOUGHTS",
+            "header": "Watch this video about emotions that accompany automatic thoughts",
+            "videoURL": "https://d2swjyil7hxep8.cloudfront.net/v3/Session5_Emotions_vid10_NEED TO UPDATE.mp4",
+            "snapshotURL": "../../images/what_is_anxiety.png",
+            "videoId": "video_emotions_thoughts"
+        },
+        {
+            "type": "9",
+            "screenId": "3",
+            "topHeader": "SKILL",
+            "title": "IDENTIFY EMOTIONS",
+            "header": "Now, identify up to two corresponding emotions for this thought:",
+            "options":[
+                {
+                    "optionId":"record-emotion-1",
+                    "title":"Anxiety",
+                    "selected": "false"
+                },
+                {
+                    "optionId":"record-emotion-2",
+                    "title":"Sadness",
+                    "selected": "false"
+                },
+                {
+                    "optionId":"record-emotion-4",
+                    "title":"Anger at others",
+                    "selected": "false"
+                },
+                {
+                    "optionId":"record-emotion-3",
+                    "title":"Anger at self",
+                    "selected": "false"
+                }
+            ]
+        },
+        {
+            "type": "4",
+            "screenId": "4",
+            "topHeader": "BREATHING EXERCISE",
+            "title": "PMR 2: UPPER BODY",
+            "header": "Let's learn a new breathing exercise to relax your upper body",
+            "audioDescription": "Progressive Muscle Relaxation 2",
+            "audioURL": "https://d2swjyil7hxep8.cloudfront.net/v3/Session5_PMR2_audio.mp3",
+            "audioId": "progressive_muscle_relaxation",
+            "length": "5"
+        },
+        {
+            "type": "5",
+            "screenId": "6",
+            "topHeader": "MONITOR",
+            "header": "Imagine you have to ask someone on a date. How anxious would that make you feel?",
+            "chartLabels": [],
+            "chartData": [],
+            "minText": "NOT AT ALL",
+            "midText": "SOMEWHAT",
+            "maxText": "EXTREMELY",
+            "sliderMin": 0,
+            "sliderMax": 10,
+            "sliderStep": 1
+        },
+        {
+            "type": "6",
+            "screenId": "6",
+            "title": "CONGRATULATIONS!",
+            "subHeader": "Session Complete",
+            "completedSessionNumber": 5,
+            "completedSession": "EMOTIONS & THOUGHTS",
+            "sections": [
+                {
+                  "title": "Remember Concept",
+                  "option": "Emotions accompanying Automatic Thoughts"
+                },
+                {
+                  "title": "Master Skill",
+                  "option": "Identify Emotions"
+                },
+                {
+                  "title": "Practice Breathing",
+                  "option": "PMR Upper Body"
+                }
+            ]
+        }
+    ],
+    "s6":
+    [
+        {
+            "type": "1",
+            "screenId": "1",
+            "title": "OVERVIEW",
+            "length": "5",
+            "sections": [
+                {
+                  "title": "SKILL",
+                  "option": "Categorize ATs"
+                },
+                {
+                  "title": "SKILL",
+                  "option": "Another category"
+                },
+                {
+                  "title": "BREATHING EXERCISE",
+                  "option": "PMR 2: Upper Body"
+                },
+                {
+                  "title": "MONITOR",
+                  "option": "Anxiety Tracking"
+                }
+            ]
+        },
+        {
+            "type": "2",
+            "screenId": "2",
+            "title": "CATEGORIZE AUTOMATIC THOUGHTS",
+            "topHeader": "SKILL",
+            "header": "Watch this video to learn about how to Categorize your Automatic Thoughts.",
+            "videoURL": "https://d2swjyil7hxep8.cloudfront.net/v3/Session6_Cat1_vid11_Dating.mp4",
+            "snapshotURL": "../../images/what_is_anxiety.png",
+            "videoId": "video_worry_tool"
+        },
+        {
+            "type": "2",
+            "screenId": "3",
+            "title": "CATEGORIZE AUTOMATIC THOUGHTS",
+            "topHeader": "SKILL",
+            "header": "Watch this video to learn about another AT Category.",
+            "videoURL": "https://d2swjyil7hxep8.cloudfront.net/v3/Session6_Cat2_vid12_Dating.mp4",
+            "snapshotURL": "../../images/what_is_anxiety.png",
+            "videoId": "video_worry_tool"
+        },
+        {
+            "type": "10",
+            "screenId": "4",
+            "title": "CATEGORIZE YOUR AUTOMATIC THOUGHT",
+            "topHeader": "SKILL",
+            "header": "Pick a category for the Automatic Thought you recorded earlier:",
+            "options":[
+                {
+                    "optionId":"record-emotion-1",
+                    "title":"Anxiety",
+                    "selected": "false"
+                }
+            ],
+            "categories":[
+                {
+                    "title": "Select Category",
+                    "value": "",
+                    "id"   : "0",
+                    "info" : ""
+                },
+                {
+                    "title": "Mind reading",
+                    "value": "Mind reading",
+                    "id"   : "1",
+                    "info" : "You assume that you know what people think without having sufficient evidence of their thoughts."
+                },
+                {
+                    "title": "Fortunetelling",
+                    "value": "Fortunetelling",
+                    "id"   : "2",
+                    "info" : "You predict the future negatively: Things will get worse, or there is danger ahead."
+                },
+                {
+                    "title": "Catastrophizing",
+                    "value": "Catastrophizing",
+                    "id"   : "3",
+                    "info" : "You believe that what has happened or will happen will be so awful and unbearable that you won’t be able to stand it. "
+                },
+                {
+                    "title": "Labeling",
+                    "value": "Labeling",
+                    "id"   : "4",
+                    "info" : "You assign global negative traits to yourself and others."
+                },
+                {
+                    "title": "Discounting positives",
+                    "value": "Discounting positives",
+                    "id"   : "5",
+                    "info" : "You claim that the positive things you or others do are trivial."
+                },
+                {
+                    "title": "Negative filtering",
+                    "value": "Negative filtering",
+                    "id"   : "6",
+                    "info" : "You focus almost exclusively on the negatives and seldom notice the positives."
+                },
+                {
+                    "title": "Overgeneralizing",
+                    "value": "Overgeneralizing",
+                    "id"   : "7",
+                    "info" : "You perceive a global pattern of negatives on the basis of a single incident."
+                },
+                {
+                    "title": "All-or-Nothing",
+                    "value": "All-or-Nothing",
+                    "id"   : "8",
+                    "info" : "You view events or people in all-or-nothing terms."
+                },
+                {
+                    "title": "Shoulds",
+                    "value": "Shoulds",
+                    "id"   : "9",
+                    "info" : "You interpret events in terms of how things should be, rather than simply focusing on what is."
+                },
+                {
+                    "title": "Personalizing",
+                    "value": "Personalizing",
+                    "id"   : "10",
+                    "info" : "You attribute a disproportionate amount of the blame to yourself for negative events, and you fail to see that certain events are also caused by others."
+                }
+            ]
+        },
+        {
+            "type": "4",
+            "screenId": "5",
+            "title": "PMR 2: UPPER BODY",
+            "topHeader": "BREATHING EXERCISE",
+            "header": "Let’s practice the muscle relaxation you learned in the last session",
+            "audioDescription": "Progressive Muscle Relaxation 2",
+            "audioURL": "https://d2swjyil7hxep8.cloudfront.net/v3/Session6_PMR2_audio.mp3",
+            "audioId": "dia_breathing",
+            "length": "5"
+        },
+        {
+            "type": "5",
+            "screenId": "6",
+            "topHeader": "MONITOR",
+            "header": "Imagine you have to ask someone on a date. How anxious would that make you feel?",
+            "title": "Anixety Tracking",
+            "chartLabels": [],
+            "chartData": [],
+            "minText": "NOT AT ALL",
+            "midText": "SOMEWHAT",
+            "maxText": "EXTREMELY",
+            "sliderMin": 0,
+            "sliderMax": 10,
+            "sliderStep": 1
+        },
+        {
+            "type": "6",
+            "screenId": "7",
+            "title": "CONGRATULATIONS!",
+            "subHeader": "Session Complete",
+            "completedSessionNumber": 6,
+            "completedSession": "AT Categories",
+            "sections": [
+                {
+                    "title": "Remember Concept",
+                    "option": "Different Categories"
+                },
+                {
+                    "title": "Master Skill",
+                    "option": "Categorize ATs"
+                },
+                {
+                    "title": "Practice Breathing",
+                    "option": "PMR Upper Body"
+                }
+            ]
+        }
     ]
-  },
-  {
-    "type": "2",
-    "screenId": "2",
-    "title": "ABOUT ANXIETY",
-    "topHeader": "CONCEPT",
-    "header": "Watch this video to learn what is anxiety and why it exists.",
-    "videoURL": "https://d2swjyil7hxep8.cloudfront.net/gWwF!gt!6!kiU0RR!VRq_v2/Session1_AboutAnxiety_vid1.mp4",
-    "snapshotURL": "../../images/what_is_anxiety.png",
-    "videoId": "video_about_anxiety"
-  },
-  {
-    "type": "2",
-    "screenId": "3",
-    "title": "ANXIETY-BEHAVIOR TRACKING",
-    "topHeader": "SKILL",
-    "header": " Watch this video to learn about anxiety related behaviors.",
-    "videoURL": "https://d2swjyil7hxep8.cloudfront.net/gWwF!gt!6!kiU0RR!VRq_v2/Session1_AnxietyBeh_vid2.mp4",
-    "snapshotURL": "../../images/anxiety_related_behaviours.png",
-    "videoId": "video_anxiety_behavior_tracking"
-  },
-  {
-    "type": "3",
-    "screenId": "4",
-    "title": "SAFETY BEHAVIORS",
-    "topHeader": "SKILL",
-    "header": "Choose behaviors that you DO when anxious",
-    "freeForm": "false",
-    "options": [
-      {
-        "title": "Drink too much",
-        "optionId": "safety-behaviour-1",
-        "selected": "false",
-        "count": 0
-      },
-      {
-        "title": "Repeat words or phrases, or use fillers such as 'like' or 'you know'",
-        "optionId": "safety-behaviour-2",
-        "selected": "false",
-        "count": 0
-      },
-      {
-        "title": "Let my date do all the talking because or over rehearse",
-        "optionId": "safety-behaviour-3",
-        "selected": "false",
-        "count": 0
-      },
-      {
-        "title": "Try to keep my hands out of sight so that no one sees them trembling",
-        "optionId": "safety-behaviour-4",
-        "selected": "false",
-        "count": 0
-      }
-    ]
-  },
-  {
-    "type": "3",
-    "screenId": "5",
-    "title": "AVOIDED BEHAVIORS",
-    "topHeader": "SKILL",
-    "header": "Choose behaviors that you AVOID when anxious",
-    "freeForm": "false",
-    "options": [
-      {
-        "title": "Avoid situations that might lead to meeting someone new",
-        "optionId": "avoided-behaviour-1",
-        "selected": "false",
-        "count": 0
-      },
-      {
-        "title": "Avoid introducing myself properly",
-        "optionId": "avoided-behaviour-2",
-        "selected": "false",
-        "count": 0
-      },
-      {
-        "title": "Avoid making eye contact ",
-        "optionId": "avoided-behaviour-3",
-        "selected": "false",
-        "count": 0
-      },
-      {
-        "title": "Avoid eating in front of date ",
-        "optionId": "avoided-behaviour-4",
-        "selected": "false",
-        "count": 0
-      }
-    ]
-  },
-  {
-    "type": "4",
-    "screenId": "6",
-    "title": "DIAPHRAGMATIC BREATHING",
-    "topHeader": "BREATHING EXERCISE",
-    "header": "Relaxation helps! Let's learn a calming relaxation technique",
-    "audioDescription": "Easy to use relaxation technique",
-    "audioURL": "https://d2swjyil7hxep8.cloudfront.net/gWwF!gt!6!kiU0RR!VRq_v2/Session1_DiaBreathing+audio.mp3",
-    "audioId": "dia_breathing",
-    "length": "5"
-  },
-  {
-    "type": "5",
-    "screenId": "7",
-    "chartLabels": [],
-    "chartData": [],
-    "topHeader": "ANXIETY TRACKER",
-    "header": "Imagine you have to ask someone on a date. How anxious would that make you feel?",
-    "minText": "NOT AT ALL",
-    "midText": "SOMEWHAT",
-    "maxText": "EXTREMELY",
-    "sliderMin": 0,
-    "sliderMax": 10,
-    "sliderStep": 1
-  },
-  {
-    "type": "6",
-    "screenId": "8",
-    "title": "CONGRATULATIONS!",
-    "subHeader": "Session Complete",
-    "completedSessionNumber": 1,
-    "completedSession": "INTRO TO ANXIETY",
-    "sections": [
-      {
-        "title": "Learned Concept",
-        "option": "About Anxiety"
-      },
-      {
-        "title": "Mastered Skill",
-        "option": "Behavior Tracking"
-      },
-      {
-        "title": "Practiced",
-        "option": "Diaphragmatic Breathing"
-      }
-    ]
-  }
-]
+}
