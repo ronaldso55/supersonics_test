@@ -14,11 +14,11 @@
 //                "HEADLINE" : 'Hey, das ist meine großartige App!', "INTRO_TEXT" : 'Und sie untersützt mehrere Sprachen!'
 //            }
 //        });
-//        $translateProvider.useLocalStorage();
         $translateProvider.useStaticFilesLoader({
             prefix : '/l10n/',
             suffix : '.json'
         });
         $translateProvider.preferredLanguage('en_US');
+//        $translateProvider.useLocalStorage(); // Note [RS]: Comment this out and run the app once if you need to switch preferred language.  Weird.
     }
 })();
