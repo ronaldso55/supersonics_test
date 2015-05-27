@@ -29,8 +29,27 @@
 <% _.each(yield.modules, function(module) { %>
 <script src="/app/<%= module %>.js"></script>
 <% }); %>
-</head>
-<body ng-app="<%= yield.moduleName %>"><%= yield.view %>
+<script type="text/javascript" charset="utf-8">
 
+    function onLoad() {
+        console.log("Entering onLoad()..");
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    function onDeviceReady() {
+        console.log("Entering onDeviceReady()..");
+        // if (typeof TestFairy !== 'undefined') {
+        //     supersonic.logger.debug("Initializing TestFairy");
+        //     TestFairy.begin("d8eb64481ac36ee784cfadec0ff2fd00e02f0db5");
+
+            // document.addEventListener("pause", onPause, false);
+            // document.addEventListener("resume", onResume, false);
+        }
+    }
+
+</script>
+</head>
+
+<body ng-app="<%= yield.moduleName %>" onload="onLoad()"><%= yield.view %>
 </body>
 </html>
