@@ -7,6 +7,6 @@
 
     function ToolsController(supersonic) {
         var vm = this;
-        vm.navbarTitle = "Tools";
+        vm.navbarTitle = 'Tools';
     }
 })();

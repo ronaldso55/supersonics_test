@@ -7,6 +7,6 @@
 
     function SessionsController(supersonic) {
         var vm = this;
-        vm.navbarTitle = "Sessions";
+        vm.navbarTitle = 'Sessions';
     }
 })();

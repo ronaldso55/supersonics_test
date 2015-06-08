@@ -8,6 +8,6 @@
     function ProfileController(supersonic, filter) {
         var vm = this,
             i18n = filter('translate');
-        vm.navbarTitle = "Profile";
+        vm.navbarTitle = 'Profile';
     }
 })();

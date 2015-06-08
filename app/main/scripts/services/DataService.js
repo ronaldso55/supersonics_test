@@ -3,15 +3,15 @@
 
     angular.module('main').service('DataService', DataService);
 
-    DataService.$inject = ['$http'];
+    DataService.$inject = ['$http', '$q'];
 
-    function DataService(http) {
-        console.log("Entering DataService");
-        var urlTemplate = "../../jsondata/insert_data_name.json";
+    function DataService(http, q) {
+        console.log('Entering DataService');
+        var urlTemplate = '../../jsondata/insert_data_name.json';
 
         var getData = function(name) {
-            var fullUrl = urlTemplate.replace("insert_data_name", name);
-            var deferred = $q.defer();
+            var fullUrl = urlTemplate.replace('insert_data_name', name);
+            var deferred = q.defer();
             http.get(fullUrl)
                 .success(function(data) {
                     deferred.resolve(data);
@@ -22,39 +22,39 @@
         };
 
         var getSessionData = function() {
-            return this.getData("session");
+            return this.getData('session');
         };
 
         var getBehaviorData = function(behaviourId) {
-            return this.getData("behaviour");
+            return this.getData('behaviour');
         };
 
         var getAnxietyMeterData = function() {
-            return this.getData("anxietymeter");
+            return this.getData('anxietymeter');
         };
 
         var getDocumentMapData = function() {
-            return this.getData("documentIndexMap");
+            return this.getData('documentIndexMap');
         };
 
         var getBreathingExerciseData = function() {
-            return this.getData("breathingExercise");
+            return this.getData('breathingExercise');
         };
 
         var getOnBoardingData = function() {
-            return this.getData("onboarding");
+            return this.getData('onboarding');
         };
 
         var getRegistrationData = function() {
-            return this.getData("registration");
+            return this.getData('registration');
         };
 
         var getSessionListData = function() {
-            return this.getData("sessions_list");
+            return this.getData('sessions_list');
         };
 
         var getThoughtRecorderData = function() {
-            return this.getData("thought_recorder");
+            return this.getData('thought_recorder');
         };
     }
 })();
