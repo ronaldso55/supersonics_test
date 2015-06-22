@@ -3,11 +3,12 @@
 
     angular.module('main').controller('ProfileController', ProfileController);
 
-    ProfileController.$inject = ['supersonic', '$filter'];
+    ProfileController.$inject = ['supersonic', '$translate'];
 
-    function ProfileController(supersonic, filter) {
-        var vm = this,
-            i18n = filter('translate');
-        vm.navbarTitle = 'Profile';
+    function ProfileController(supersonic, translate) {
+        var vm = this;
+        translate('profile.TITLE').then(function(translation) {
+            vm.navbarTitle = translate.instant('profile.TITLE');
+        });
     }
 })();
