@@ -1,6 +1,6 @@
 'use strict';
 
-describe('ProfileController Tests', function () {
+describe('controller: ProfileController', function () {
     var scope, controller, translate;
 
     beforeEach(module('main'), function($translateProvider) {
@@ -12,7 +12,7 @@ describe('ProfileController Tests', function () {
         translate = $translate;
     }));
 
-    it('Should have controller', function () {
+    it('should have controller', function () {
         expect(controller).not.toBeUndefined();
     });
     it('should have navbarTitle defined', function() {

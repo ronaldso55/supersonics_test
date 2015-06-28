@@ -1,13 +1,16 @@
 (function() {
     'use strict';
 
-    angular.module('main').service('ConfigService', ConfigService);
+    angular.module('main').factory('ConfigService', ConfigService);
 
     ConfigService.$inject = ['$http', '$q'];
 
     function ConfigService(http, q) {
-        console.log('Entering ConfigService');
-        var getConfiguration = function() {
+        return {
+            getConfiguration: getConfiguration
+        };
+
+        function getConfiguration() {
             var deferred = q.defer();
             http.get('../../config/config.json')
             .success(function(data) {
@@ -16,6 +19,6 @@
                 deferred.reject(msg);
             });
             return deferred.promise;
-        };
+        }
     }
 })();
