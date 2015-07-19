@@ -24,6 +24,12 @@
 <script src="/components/angular-translate-loader-static-files/angular-translate-loader-static-files.min.js"></script>
 <script src="/components/angular-translate-storage-cookie/angular-translate-storage-cookie.min.js"></script>
 <script src="/components/angular-translate-storage-local/angular-translate-storage-local.min.js"></script>
+<!--  Start of auth0 requirements -->
+<script src="/components/auth0-lock/build/auth0-lock.min.js"></script>
+<script src="/components/auth0-angular/build/auth0-angular.min.js"></script>
+<script src="/components/a0-angular-storage/dist/angular-storage.min.js"></script>
+<script src="/components/angular-jwt/dist/angular-jwt.min.js"></script>
+<!--  End of auth0 requirements -->
 <!-- End of AngularJS plugins -->
 
 <% _.each(yield.modules, function(module) { %>
