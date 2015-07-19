@@ -13,9 +13,8 @@ module.exports = function(grunt) {
             files: ['*.js', 'scripts/**/*.js', 'app/**/*.js'],
             options: {
                 jshintrc: true,
-                ignores: []
-            },
-
+                ignores: ['app/**/*spec.js']
+            }
         },
         watch: {
             files: ['<%= jshint.files %>'],

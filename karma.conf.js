@@ -30,14 +30,14 @@ module.exports = function(config) {
             'bower_components/angular-mocks/angular-mocks.js',
             'bower_components/angular-sanitize/angular-sanitize.js',
             'bower_components/angular-translate/angular-translate.js',
-'bower_components/angular-translate-loader-static-files/angular-translate-loader-static-files.js',
-'bower_components/angular-translate-storage-cookie/angular-translate-storage-cookie.js',
-'bower_components/angular-translate-storage-local/angular-translate-storage-local.js',
+            'bower_components/angular-translate-loader-static-files/angular-translate-loader-static-files.js',
+            'bower_components/angular-translate-storage-cookie/angular-translate-storage-cookie.js',
+            'bower_components/angular-translate-storage-local/angular-translate-storage-local.js',
             'bower_components/steroids-js/steroids.js',
             'bower_components/supersonic/supersonic.js',
             'bower_components/webcomponentsjs/webcomponents.js',
             'app/main/**/*.js',
-            'test/**/*Test.js'
+            'test/**/*spec.js'
         ],
 
         // frameworks to use

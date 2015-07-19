@@ -70,19 +70,19 @@ describe('factories: DataService', function () {
     });
 
     it('should return the registration data from registration.json', function() {
-        httpBackend.whenGET("../../jsondata/registration.json").respond({
-            "register": {
-                "country": ["United States", "India"]
+        httpBackend.whenGET('../../jsondata/registration.json').respond({
+            'register': {
+                'country': ['United States', 'India']
             },
-            "aboutProgram": {}
+            'aboutProgram': {}
         });
         service.getRegistrationData().then(function(data) {
             expect(data.register).toBeDefined();
             expect(data.aboutProgram).toBeDefined();
-            expect(data.register.country[0]).toBe("United States");
-            expect(data.register.country[1]).toBe("India");
+            expect(data.register.country[0]).toBe('United States');
+            expect(data.register.country[1]).toBe('India');
         });
-        httpBackend.flush(); 
+        httpBackend.flush();
     });
 
     afterEach(function() {

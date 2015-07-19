@@ -26,16 +26,16 @@ describe('factories: ConfigService', function () {
     });
 
     it('should return the configuration data', function() {
-        httpBackend.whenGET("../../config/config.json").respond(
+        httpBackend.whenGET('../../config/config.json').respond(
             {
-                "accountId": "39a35b15-259e-47ca-b22a-3e74dc075504",
-                "localyticsKey": "27d0a3b3944545922106b89-c55673ac-cc51-11e4-2ee7-004a77f8b47f"
+                'accountId': '39a35b15-259e-47ca-b22a-3e74dc075504',
+                'localyticsKey': '27d0a3b3944545922106b89-c55673ac-cc51-11e4-2ee7-004a77f8b47f'
             });
 
         service.getConfiguration().then(function(data) {
             expect(data.accountId).toBeDefined();
             expect(data.localyticsKey).toBeDefined();
-            expect(data.accountId).toBe("39a35b15-259e-47ca-b22a-3e74dc075504");
+            expect(data.accountId).toBe('39a35b15-259e-47ca-b22a-3e74dc075504');
         });
 
         httpBackend.flush();
