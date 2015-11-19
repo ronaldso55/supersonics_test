@@ -1,0 +1,13 @@
+{
+  "type": "1",
+  "chartLabels": [],
+  "chartData": [],
+  "min":"NOT AT ALL",
+  "mid":"SOMEWHAT",
+  "max":"EXTREMELY",
+  "sliderMin":0,
+  "sliderMax":10,
+  "sliderStep":1,      
+  "sliderMeterValue" : 0,
+  "question" : "Imagine you have to ask someone on a date. How anxious would that make you?"
+}

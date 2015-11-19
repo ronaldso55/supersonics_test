@@ -4,44 +4,52 @@
  ***********************************************************/
 
 navigation-bar {
-  background-color: #00B5FF;
+  background-color: #87d7f0;
   color: #ffffff;
 }
 
 navigation-bar title {
   color: #ffffff;
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
 }
 
-navigation-bar button, navigation-bar back-bar-button {
+navigation-bar button,
+navigation-bar back-bar-button {
   color: #ffffff;
   font-weight: 300;
 }
 
+navigation-bar back-indicator{
+  background-image: url(icons/left.svg);
+  background-size: 20;
+}
+
 tab-bar {
   background-color: #ffffff;
-  border-top: 1px #d8d8d8 solid;
+  border-top: none;
+  color: #ff715b;
 }
 
 tab-bar tab-bar-item {
-  color: #b0b1b4;
+  color: #b2b2b2;
   font-family: "Avenir";
   font-size: 10px;
 }
 
 tab-bar tab-bar-item:selected {
-  color: #1596f7;
+  color: #ff715b;
 }
 
-tab-bar-item#settings {
-  background-image: url(icons/cog.svg);
+tab-bar-item#tools {
+  background-image: url(icons/tools.svg);
 }
 
-tab-bar-item#index {
+tab-bar-item#sessions {
   background-image: url(icons/home.svg);
 }
 
-tab-bar-item#internet {
-  background-image: url(icons/search.svg);
+tab-bar-item#profile {
+  background-image: url(icons/profile.svg);
 }
